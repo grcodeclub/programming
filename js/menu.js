@@ -30,10 +30,10 @@ $(document).ready(function() {
     menuLink = '<li><a href="https://grcodeclub.gr/sql">SQL</a></li>';
     $('.sidebarMenuInner').append(menuLink);
     
-    menuLink = '<li><a href="https://grcodeclub.gr/docker">Docker</a></li>';
+    menuLink = '<li><a href="https://grcodeclub.gr/programming/languages/docker">Docker</a></li>';
     $('.sidebarMenuInner').append(menuLink);
     
-    menuLink = '<li><a href="https://grcodeclub.gr/programming/markdown">Markdown</a></li>';
+    menuLink = '<li><a href="https://grcodeclub.gr/programming/languages/markdown">Markdown</a></li>';
     $('.sidebarMenuInner').append(menuLink);
 
     menuLink = '<li style="height: 200px;"></li>';
