@@ -24,9 +24,6 @@ $(document).ready(function() {
     menuLink = '<li><a href="https://grcodeclub.gr/python">Python</a></li>';
     $('.sidebarMenuInner').append(menuLink);
 
-    menuLink = '<li><a href="https://grcodeclub.gr/nodejs/">Node.js</a></li>';
-    $('.sidebarMenuInner').append(menuLink);
-
     menuLink = '<li><a href="https://grcodeclub.gr/sql">SQL</a></li>';
     $('.sidebarMenuInner').append(menuLink);
     
