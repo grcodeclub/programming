@@ -1,0 +1,75 @@
+<html>
+    <head>
+        <head>
+        <meta property="og:image" content="https://grcodeclub.gr/files-page/preview/java.png"/>
+            <meta property="og:title" content="Γλώσσα Προγραμματισμού Java">
+            <script src="https://grcodeclub.github.io/js/jquery.js"></script>
+            <script src="https://grcodeclub.github.io/programming/js/menu.js"></script>
+            <script src="https://grcodeclub.github.io/js/add/head.js"></script>
+            <script src="https://grcodeclub.github.io/js/prism.js"></script>
+    </head>
+
+  <body class="programming">
+        <div class="container">
+            <div id="add_headder_and_menu"></div><script src="https://grcodeclub.github.io/js/add/headder_and_menu.js"></script>
+            <div class="Text"> <!--Αρχή Κειμένου-->
+                <a href="https://grcodeclub.gr/java"><img class="logo_back"></a> <script src="https://grcodeclub.github.io/js/add/logo-back.js"></script>
+                <div class="text_bg"> <!-- Αρχή Background Κειμένου-->
+                    <h1 class="title">Παραδείγματα | Java</h1>
+                    <p>Ανάγνωση Aκεραίου<p>
+                    <div id="11" class="bg_preview" >
+                        <div  class="appearance">
+                            <div class="space"> 
+                                <div class="buttons1"> </div><div class="buttons2"> </div><div class="buttons3"> </div>
+                            </div>
+                            <div class="name_input">Java</div>
+                        </div>
+                        <div  class="line-numbers"><pre class="code_editor"><code class="language-java">
+import java.util.Scanner;                  
+public class Main {
+    public static void main(String[] args) {
+        // Δημιουργία ενός αντικειμένου Scanner για την ανάγνωση από το πληκτρολόγιο
+        Scanner scanner = new Scanner(System.in);
+                            
+        // Εμφάνιση μηνύματος για την εισαγωγή ενός ακεραίου
+        System.out.print("Εισάγετε έναν ακέραιο αριθμό: ");
+                                    
+        // Ανάγνωση του ακεραίου από το πληκτρολόγιο
+        int number = scanner.nextInt();
+                            
+        // Εμφάνιση του ακεραίου που εισήχθη
+        System.out.println("Ο αριθμός που εισαγάγατε είναι: " + number);
+                            
+        // Κλείσιμο του αντικειμένου Scanner
+        scanner.close();
+    }
+}</code></pre></div></div>
+    <p>Ανάγνωση Αλφαριθμητικού</p>
+    <div class="bg_preview" >
+    <div  class="appearance"><div class="space"> <div class="buttons1"> </div><div class="buttons2"> </div><div class="buttons3"></div></div>
+    <div class="name_input">Java</div> </div>
+    <div  class="line-numbers"><pre class="code_editor"><code class="language-java">
+import java.util.Scanner;
+   
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+       
+        System.out.print("Εισάγετε ένα αλφαριθμητικό: ");
+        String input = scanner.nextLine();
+       
+        System.out.println("Το αλφαριθμητικό που εισαγάγατε είναι: " + input);
+       
+        canner.close();
+    }
+}</code></pre></div></div>                    
+                </div><!-- Τέλος Background Κειμένου-->
+
+            </div> <!--Τέλος Κειμένου-->
+
+        </div> <!--Τέλος container-->
+        
+        <!-- Footer -->
+        <footer id="add-social"></footer><script src="https://grcodeclub.github.io/js/add/social.js"></script>
+    </body>
+</html>

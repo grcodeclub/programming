@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <meta property="og:image" content="https://grcodeclub.gr/files-page/preview/programming.png"/>
+        <meta property="og:title" content="GrCode Club | Γλώσσα προγραμματισμού C">
+        <script src="https://grcodeclub.gr/js/jquery.js"></script>
+        <script src="https://grcodeclub.gr/programming/js/menu.js"></script>
+        <script src="https://grcodeclub.github.io/js/add/head.js"></script>
+        <script src="https://grcodeclub.github.io/js/prism.js"></script>
+    </head>
+
+    <body class="programming">
+        <div class="container">
+            <div id="add_headder_and_menu"></div><script src="https://grcodeclub.github.io/js/add/headder_and_menu.js"></script>
+            <div class="Text"> <!--Αρχή Κειμένου-->
+                <div class="text_bg"> <!-- Αρχή Background Κειμένου-->
+                    <h1 class="title">Γλώσσα προγραμματισμού C</h1>
+                    <p>Η C θεωρείται γενικά γλώσσα μέσου επιπέδου και αυτό γιατί συνδυάζει στοιχεία των γλωσσών υψηλού επιπέδου (high level languages) και η Pascal και στοιχεία των γλωσσών χαμηλού επιπέδου (low level languages), όπως είναι η Assembly.</p>
+                    <h3 class="highlight_black">Γράψιμο Προγράμματος</h3>
+                    <div class="bg_preview">
+                    <div  class="line-numbers"><pre class="code_editor"><code class="language-cpp">#include <stdio.h>
+
+int main() {
+  printf("GrCode Club!");
+  return 0;
+}</code></pre></div></div>
+                    <p>Η C επιβάλλει τον καταμερισμό του προγράμματος σε ενότητες, που ονομάζονται συναρτήσεις (functions). Εάν είναι απαραίτητο, οι συναρτήσεις μπορούν να χωριστούν και σε μικρότερες συναρτήσεις. Επίσης, στη C το κύριο πρόγραμμα είναι κι αυτό μια συνάρτηση, που ονομάζεται main().</p>
+                    
+                    <h3 class="highlight_black">Τύποι δεδομένων</h3>
+                    <table class="style2">
+                        <tr><td>Τύπος δεδομένων</td><td>Size</td><td>Περιγραφή</td></tr>
+                        <tr><td>boolean</td><td>1 byte</td><td>Αποθηκεύει αληθείς ή ψευδείς τιμές</td></tr>
+                        <tr><td>char</td><td>1 byte</td><td>Αποθηκεύει έναν χαρακτήρα/γράμμα/αριθμό ή τιμές ASCII</td></tr>
+                        <tr><td>int</td><td>2 ή 4 bytes	</td><td>Αποθηκεύει ακέραιους αριθμούς, χωρίς δεκαδικούς</td></tr>
+                        <tr><td>float</td><td>4 bytes</td><td>Αποθηκεύει κλασματικούς αριθμούς που περιέχουν ένα ή περισσότερα δεκαδικά. Επαρκεί για αποθήκευση 6-7 δεκαδικών ψηφίων</td></tr>
+                        <tr><td>double</td><td>8 bytes</td><td>Αποθηκεύει κλασματικούς αριθμούς που περιέχουν ένα ή περισσότερα δεκαδικά. Επαρκεί για την αποθήκευση 15 δεκαδικών ψηφίων</td></tr>
+                    </table>
+
+                     <h2 class="highlight_black">Compiling</h2>
+                    <div class="terminal"><pre class="command-line" data-user="grcodeclub" data-host="linux"><code class="language-bash">gcc main.cpp -o my_program</code></pre></div>  
+
+
+                    <br><br> <div class="search"><input type="input" class="form__field" placeholder="Αναζήτηση" id='searchInputList'/></div>
+                    <div class="list-container">
+                        <ul class="list">
+                            <li><a href="./command" class="link">Εντολές</a></li>
+                            <li><a href="./stract" class="link">Δομή - Struct</a></li>
+                        </ul>
+                        <ul class="list">
+                            <li><a href="./library" class="link">Βιβλιοθήκες</a></li>
+                            <li><a href="./code" class="link">Κώδικας</a></li>
+                            <li><a href="./files" class="link">Αρχεία</a></li>
+                        </ul>
+                  </div>
+                    <br><br>
+                 
+                  <script src="https://grcodeclub.gr/javascript/search/list.js"></script>     
+                </div><!-- Τέλος Background Κειμένου-->
+            </div> <!--Τέλος Κειμένου-->
+
+        </div> <!--Τέλος container-->
+        
+        <!-- Footer -->
+        <footer id="add-social"></footer><script src="https://grcodeclub.github.io/js/add/social.js"></script>
+    </body>
+</html>
