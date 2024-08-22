@@ -12,16 +12,16 @@ $(document).ready(function() {
     menuLink = ' <li><a href="https://grcodeclub.gr/programming/orologia">Oρολογία</a></li>';
     $('.sidebarMenuInner').append(menuLink);
     
-    menuLink = '<li><a href="https://grcodeclub.gr/c">C</a></li>';
+    menuLink = '<li><a href="https://grcodeclub.gr/programming/c">C</a></li>';
     $('.sidebarMenuInner').append(menuLink);
     
-    menuLink = '<li><a href="https://grcodeclub.gr/cpp">C++</a></li>';
+    menuLink = '<li><a href="https://grcodeclub.gr/programming/cpp">C++</a></li>';
     $('.sidebarMenuInner').append(menuLink);
     
-    menuLink = '<li><a href="https://grcodeclub.gr/java">Java</a></li>';
+    menuLink = '<li><a href="https://grcodeclub.gr/programming/java">Java</a></li>';
      $('.sidebarMenuInner').append(menuLink);
     
-    menuLink = '<li><a href="https://grcodeclub.gr/python">Python</a></li>';
+    menuLink = '<li><a href="https://grcodeclub.gr/programming/python">Python</a></li>';
     $('.sidebarMenuInner').append(menuLink);
 
     menuLink = '<li><a href="https://grcodeclub.gr/programming/languages/sql">SQL</a></li>';
