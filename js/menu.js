@@ -36,6 +36,5 @@ $(document).ready(function() {
     menuLink = '<li style="height: 200px;"></li>';
     $('.sidebarMenuInner').append(menuLink);
     
-    window.location.reload();
-  });
+});
   
