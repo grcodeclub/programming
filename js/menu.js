@@ -11,7 +11,7 @@ window.onload = function() {
         '<li><a href="https://grcodeclub.gr/programming/languages/sql">SQL</a></li>',
         '<li><a href="https://grcodeclub.gr/programming/languages/docker">Docker</a></li>',
         '<li><a href="https://grcodeclub.gr/programming/languages/markdown">Markdown</a></li>',
-        '<li style="height: 200px;"></li>';
+        '<li style="height: 200px;"></li>'
     ];
     
     var $sidebarMenuInners = document.querySelectorAll('.sidebarMenuInner');
