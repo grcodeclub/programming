@@ -11,7 +11,7 @@
             <div class="Text"> <!--Αρχή Κειμένου-->
                 <div class="text_bg"> <!-- Αρχή Background Κειμένου-->
                    <h1 class="title">SQL</h1>
-                   <h3 class="highlight_black">Δημιουργία Βάσης Δεδομένων</h3>
+                   <h3 class="highlight">Δημιουργία Βάσης Δεδομένων</h3>
                     <p>Διαγράφουμε την Βάση Δεδομένων με όνομα register αν υπάρχει. Αυτό το χρησιμοποιούμε αν έλουμε να φτιάξουμε μια καινούργια Βάση Δεδομένων και υπάρχει ήδη μια,με το ίδιο όνομα.</p>
                     <div class="bg_preview">
                     <div  class="line-numbers"><pre class="code_editor"><code class="language-SQL">DROP DATABASE IF EXISTS register;</code></pre></div></div>
@@ -24,7 +24,7 @@
                     <div  class="line-numbers"><pre class="code_editor"><code class="language-SQL">USE register;</code></pre></div></div>
     
 
-                    <h3 class="highlight_black">Δημιουργία και επεξεργασία πινάκων</h3>
+                    <h3 class="highlight">Δημιουργία και επεξεργασία πινάκων</h3>
                    <p>Δημιουργούμε έναν πίνακα με όνομα users. Τα πεδία που θα έχει ο πίνακας θα είναι </p>
                    <ol>
                         <li>ID, το οποίο θα είναι int  και θα το ορίσουμε ως PRIMARY KEY. Επειδή θα είναι PRIMARY KEY θα το βάλουμε και ως NOT NULL.</li>
@@ -48,7 +48,7 @@
                     <div  class="line-numbers"><pre class="code_editor"><code class="language-SQL">username VARCHAR(50) NOT NULL;</code></pre></div></div>
 
                 
-                    <h3 class="highlight_black">Εισαγωγή Δεδομένων</h3>
+                    <h3 class="highlight">Εισαγωγή Δεδομένων</h3>
                     <div class="bg_preview">
                     <div  class="line-numbers"><pre class="code_editor"><code class="language-SQL">INSERT INTO users VALUES (0, "grcodeclub");</code></pre></div></div>
                     <p>ή</p>
@@ -89,12 +89,12 @@
                     <div class="bg_preview">
                     <div  class="line-numbers"><pre class="code_editor"><code class="language-SQL">LIMIT</code></pre></div></div>
 
-                    <h3 class="highlight_black">Φιλτράρισμα</h3>
+                    <h3 class="highlight">Φιλτράρισμα</h3>
                     <p>Φιλτράρετε αποτελέσματα με μια συνθήκη</p>
                     <div class="bg_preview">
                     <div  class="line-numbers"><pre class="code_editor"><code class="language-SQL">SELECT * FROM users WHERE id=1</code></pre></div></div>
 
-                    <h3 class="highlight_black">Συγκεντρωτικές λειτουργίες</h3>
+                    <h3 class="highlight">Συγκεντρωτικές λειτουργίες</h3>
                     <p>Μετρήστε τον αριθμό των σειρών που αντιστοιχούν στο ερώτημα</p>
                     <div class="bg_preview">
                     <div  class="line-numbers"><pre class="code_editor"><code class="language-SQL">COUNT</code></pre></div></div>

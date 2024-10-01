@@ -14,7 +14,7 @@
                     <p>Το Docker είναι μια πλατφόρμα ανοικτού κώδικα που χρησιμοποιείται για την αυτοματοποίηση, την ανάπτυξη και την εκτέλεση εφαρμογών μέσα σε περιβάλλοντα περιορισμένων πόρων, γνωστά ως "containers".</p>
                     <p>Η λογική του Docker, είναι ότι σηκώνουμε ένα container για κάθε service που θέλουμε.</p>
                     
-                    <h2 class="highlight_black">Container</h2>
+                    <h2 class="highlight">Container</h2>
                     <p>Ένα Docker Container χρησιμοποιεί το λειτουργικό και τον πυρήνα του host καθως δεν έχει δικό του πυρήνα. 
                         Με αποτέλεσμα να είναι πολύ ποιο ελαφρύ και να ξοδεύει μόνο τα αναγκαία resources, για να τρέξουν τα services που θέλει.
                     <br>Κάθε container είναι πλήρως απομονωμένο από το host λειτουργικό και από άλλα containers.
@@ -44,7 +44,7 @@
                     <p>Να μας εμφανίσιμή την port για ένα συγκεκριμένο container (π.χ apache). </p>
                     <div class="terminal"><pre class="command-line" data-user="grcodeclub" data-host="linux"><code class="language-bash">docker port apache</code></pre></div>
 
-                    <h2 class="highlight_black">Docker Image</h2>
+                    <h2 class="highlight">Docker Image</h2>
                     <p>Το Docker Image αποτελεί ένα αρχείο που περιλαμβάνει τις απαραίτητες οδηγίες για τη δημιουργία ενός container.</p>              
                     <p><u>Βασικές εντολές διαχείρισης image</u></p>
                     <p>Για να δούμε τώρα πόσα image βρίσκονται στον υπολογιστή μας.</p>
@@ -59,7 +59,7 @@ hello-world             latest              bf756fb1ae65        4 months ago    
                     <div class="terminal"><pre class="command-line" data-user="grcodeclub" data-host="linux"><code class="language-bash">docker rmi -f bf756fb1ae65</code></pre></div>
                     <p>Για να διαγράψουμε τέλος όλα τα αχρησιμοποίητα image.</p>
                     <div class="terminal"><pre class="command-line" data-user="grcodeclub" data-host="linux"><code class="language-bash">docker image prune</code></pre></div>
-                    <h2 class="highlight_black">Dockerfile</h2>
+                    <h2 class="highlight">Dockerfile</h2>
                     <p>Το Dockerfile είναι ένα αρχείο κειμένου που χρησιμοποιείται για την δημιουργία Docker Image.</p>
                     <p>Η <b>FROM</b> αυτή η εντολή καθορίζει ποια βασική εικόνα θα χρησιμοποιηθεί ως βάση για τη νέα εικόνα.>Παράδειγμα:</p>
                     <div class="bg_preview">
@@ -89,7 +89,7 @@ hello-world             latest              bf756fb1ae65        4 months ago    
                     <div class="bg_preview">
                     <div  class="line-numbers"><pre class="code_editor"><code class="language-dockerfile">CMD ["npm", "start"]</code></pre></div></div>
 
-                <h2 class="highlight_black">Βασικές εντολές διαχείρισης network</h2>
+                <h2 class="highlight">Βασικές εντολές διαχείρισης network</h2>
                 
                 <p>Το Docker δημιουργεί αυτόματα ένα bridge δίκτυο, το οποίο ονομάζεται "docker0" και μπορούμε να το δούμε δίνοντας στο τερματικό μας την εντολή:</p>
                 <div class="terminal"><pre class="command-line" data-user="grcodeclub" data-host="linux"><code class="language-bash">ifconfig</code></pre></div>
