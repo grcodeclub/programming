@@ -1,16 +1,16 @@
-<html>
-    <head>
-        <meta property="og:image" content="https://grcodeclub.github.io/files-page/preview/programming.png"/>
-        <meta property="og:title" content="GrCode Club | MATLAB">
-        <script src="https://grcodeclub.github.io/js/add/data.js"></script>
-    </head>
-
-    <body>
-        <div class="container">
-            <div id="add_headder_and_menu"></div>
-            <div class="Text"> <!--Αρχή Κειμένου-->
-                <div class="text_bg"> <!-- Αρχή Background Κειμένου-->
-                   <h1 class="title">MATLAB</h1>
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <meta property="og:image" content="https://grcodeclub.github.io/files-page/preview/programming.png"/>
+    <meta property="og:title" content="GrCode Club | MATLAB">
+    <title>GrCode Club</title>
+    <script src="https://grcodeclub.gr/js/data.js"></script>
+</head>
+<body>
+    <div id="addHeader"></div>
+    <div class="container">
+        <h1 class="title">MATLAB</h1>
                     <h3 class="highlight">Βασικές αριθμητικές πράξεις</h3>
                     <div class="bg_preview">
                     <div  class="line-numbers"><pre class="code_editor"><code class="language-matlab">a = 5 + 3; % Πρόσθεση
@@ -28,7 +28,6 @@ result = (5 + 3) * 2; % Συνδυασμένες πράξεις, result = 16</co
                     <div  class="line-numbers"><pre class="code_editor"><code class="language-matlab">syms x; % Δημιουργία συμβολικής μεταβλητής
 eq = x^2 - 4; % Ορισμός εξίσωσης
 solution = solve(eq, x); % Επίλυση εξίσωσης, solution = [-2, 2]</code></pre></div></div>
-          
                     <h3 class="highlight">Πίνακες</h3>
                     <p>Πίνακας δεδομένων</p>
                     <div class="bg_preview"><div  class="line-numbers"><pre class="code_editor"><code class="language-matlab">data = [2, 4, 6, 8, 10];</code></pre></div></div>
@@ -52,9 +51,7 @@ xlabel('x'); % Ετικέτα άξονα x
 ylabel('sin(x)'); % Ετικέτα άξονα y
 title('Γράφημα της συνάρτησης sin(x)'); % Τίτλος γραφήματος
 ```</code></pre></div></div>
-                </div><!-- Τέλος Background Κειμένου-->
-            </div> <!--Τέλος Κειμένου-->
-        </div> <!--Τέλος container-->
-        <footer id="addFooter"></footer> <!-- Footer -->
-    </body>
+    </div>
+    <div id="addFooter"></div>
+</body>
 </html>
